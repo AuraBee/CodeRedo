@@ -210,10 +210,6 @@ body {
 			margin-top:30px;
 			}
 		
-			/*section.get .button {margin-right: 60px; margin-top: 25px;}
-		*/
-		
-		
 			
 		section.get aside {
 			width:50px; 
@@ -248,12 +244,10 @@ body {
 	}
 	
 	
-	/*settings of properties for container divs starts below*/	
-	
 	.container {
 		width:940px; 
 		height:100%;		
 		margin: 0 auto; 
 		}
-/*setting margin 0 auto is a dynamic function auto calcs  space on left & right -
+
 													 */	
