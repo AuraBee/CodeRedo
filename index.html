@@ -2,59 +2,63 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="content-type" content="text/html; charset=windows-1252"> 
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252"> 
 	<link href="css/index.css" rel="stylesheet">  
 </head>
 
 
 <body>
-
-  	<header>
-		<div class="container">
+	<button onclick="topFunction()"id="topBtn" 
+title="Go to top">Top</button>
+  
+	<header>
 				
-			<div id="logo"> 
-				<img src="images/200x60.svg">
-			</div>
-			
-		<nav id="top">
-				<ul><li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">News</a></li></ul>
-		</nav>
+					<div class="topnav" id="top">
 							
-			<div id="logo2">
-					<div class="button floatright"><a href="#">Sign In</a></div>	
-			</div>	
-						
-		</div>
-	</header> 
-
+			<div id="logo" img src="images/mylogo"></div>
+		
+					
+					
+					<a class="active" href="#home">Home</a>
+					<a href="#about">About</a>
+					<a href="#contact">Contact</a>
+				
+					<input type="text" id="search" placeholder="Search..">
+					<a href="#">
+						<button type="button" id="ctaTop">Click Me!</button></a>
+				
+				</div>	
+			</div>
+	</header>
 
 		<section class="hero">
-			<div class="container" id="about">
-		
-				<img src="images/480x380.png" class="heroimage">
-		
-				<div class="herocontent"><h1>About</h1>
-					<p>Praesent dapibus, neque id cursus faucibus, 
-						eu vulputate magna eros eu erat. 
-						Aliquam erat volutpat. Nam dui mi, tincidunt
-						quis, accumsan porttitor, facilisis luctus, metus
-						Praesent dapibus, neque id cursus faucibus,
-						vulputate magna eros eu erat. Aliquam erat volutpat. 
-						Nam dui mi, tincidunt quis, accumsan porttitor, 
-						facilisis luctus, metus</p>
-					<div class="button floatright">
-					<a href="#">Discover More</a></div>
+			<div class="container about">
+				<div class="heroimage">
+					<img src="images/480x380.png"> 
+						<div class="content"><h1>About</h1>
+							<p>Praesent dapibus, neque id cursus faucibus, 
+								eu vulputate magna eros eu erat. 
+								Aliquam erat volutpat. Nam dui mi, tincidunt
+								quis, accumsan porttitor, facilisis luctus, metus
+								Praesent dapibus, neque id cursus faucibus,
+								vulputate magna eros eu erat. Aliquam erat volutpat. 
+								Nam dui mi, tincidunt quis, accumsan porttitor, 
+								facilisis luctus, metus
+							</p>
+							<a href="#">
+							<button type="button" class="ctaMid">Click Me!</button>
+						</a>
+						</div>
 				</div>
 			</div>
 		</section>
 		
 		
 
-		<section class="features" id="features"> 
-				<h2>Features Section headers </h2>
-					<h4>Features section sub header </h4><h4>
+		<section class="features" id="featuring"> 
+				<h2>Features Section </h2>
+					<h4> Features section sub-header </h4>
+
 			<aside>
 				<img src="images/285x150.png"> <!--285x150-->
 					<h3>Feature Headline</h3>
@@ -71,7 +75,7 @@
 					<h3>Feature Headline</h3>
 			</aside>
 		
-		</h4></section>
+		</section>
 
 		
 		
@@ -82,7 +86,7 @@
 		<section class="organize">
 			<div class="container" id="news">
 				<img src="images/440x225.png">
-				<div class="organizecontent"> 
+				<div class="content"> 
 					<h2>News Headline</h2>
 					<p>Pellentesque habitant morbi tristique senectus et netus 
 						et malesuada . Vestibulum tortor quam, feugiat vitae, 
@@ -97,20 +101,22 @@
 				
 				
 				
-		<section class="share"> 
+		
+		<section class="organize">
+			<div class="container">
 			
-				<div class="sharecontent"> 
+				<div class="content"> 
 					<h2>News Headline</h2>
 					<p>Pellentesque habitant morbi tristique senectus et netus 
 						et malesuada . Vestibulum tortor quam, feugiat vitae, 
 						ultricies eget, tempor sit amet, ante. Donec eu libero sit 
 						amet quam egestas semper. Aenean ultricies mi vitae 
 						est.Placerat eleifend leo.
-					</p>
+						</p>
 				</div>
-			<img src="images/440x225.png">
-			
-		</section>	
+					<img src="images/440x225.png">	
+			</div>
+		</section>
 
 
 		<!--bottom nav-->
@@ -119,29 +125,29 @@
 				<div class="container">
 									
 				
-	<a href="#news"><aside>
-					<p>News</p>
+	<!--<a href=""><aside>
+					<p></p>
 					</aside></a>
 			
-						<a href="#about"><aside>
-					<p>About</p>
+						<a href=""><aside>
+					<p></p>
 					</aside></a>
 					
-					<a href="#top"><aside>
-						<p>Top</p>
+					<a href=""><aside>
+						<p> Top</p>
 						</aside></a>
 
-					<a href="#features"><aside>
-					<p>Features</p>
+					<a href=""><aside>
+					<p></p>
 					</aside></a>
 				
-					<a href="#contact"><aside>
-					<p>Contact</p>
+					<a href=""><aside>
+					<p></p>
 					</aside></a>
 				
 
 
-				</div>	
+				</div>	-->
 					
 				
 			</section>
@@ -151,14 +157,33 @@
 	<footer>
 	<div class="container">
 		<p> &copy; Co. Name Here</p>
-			<p>logo</p>
 			</div>
 	</footer>
 
 
+	<!--x>Get the button:-->
+	<script>
+	topbutton = document.getElementById("topBtn");
+	
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+	
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		topbutton.style.display = "block";
+	  } else {
+		topbutton.style.display = "none";
+	  }
+	}
+	
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	  document.body.scrollTop = 0; // For Safari
+	  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	}
+
+</script>
 
 
-
-
-
-</body></html>
+</body>
+</html>

@@ -5,7 +5,11 @@ floatright {float:right;}
 
 body {background:black; font-family: courier new; color:white; margin:0;}
 
-/*STRUCTURE HERE*/
+
+
+
+
+/*STRUCTURE*/
 
 	header {width:100%; height:60px; background:rgb(0,0,0); padding:5px 0; margin-bottom: 5px;}
 	#logo {width: 200px; height: 60px;background: rgb(200,200,200); float: left;}
@@ -17,10 +21,8 @@ body {background:black; font-family: courier new; color:white; margin:0;}
 	nav li a:hover {color:pink; text-decoration:underline;}
 	
 	.button { width: 150px; height: 30px; background:linear-gradient(#ec9cb0, #f88eae); 
-				text-align: center; 
-				padding: 15px 5px 5px; 
-				margin: 5px 5px 0 0; border: 1px solid rgb(150,150,150); 
-				border-radius: 5px; cursor: pointer;}
+	text-align: center; padding: 15px 5px 5px; margin: 5px 5px 0 0; border: 1px solid rgb(150,150,150); 
+	border-radius: 5px; cursor: pointer;}
 	.button a {color: cornflowerblue; text-decoration:none;}
 	.button:hover {background:pink;}
 	
@@ -37,8 +39,8 @@ body {background:black; font-family: courier new; color:white; margin:0;}
 							
 							}
 	
-			section.hero h1  /*A Conditional  --all h1's to be formattedconditional on whether
-										         in section undercontroll of a class rule called hero*/
+			section.hero h1  /*A Conditional rule --all h1's to be formatted 
+										only-if appear under a section undercontroll of a class rule called hero*/
 							{ font-size:30px; margin-bottom:-10px}
 							
 			section.hero p  {margin-bottom: 60px; } 
@@ -88,6 +90,9 @@ body {background:black; font-family: courier new; color:white; margin:0;}
 			border-bottom: solid 1px #fb04d1;}
 				
 			
+		
+			
+			
 			
 
 		section.share 
@@ -97,13 +102,13 @@ body {background:black; font-family: courier new; color:white; margin:0;}
 		
 		section.get 
 		{width:100%; height:100px; background:rgb(0,0,0); 
-		padding: 5px 0; margin: 0 auto; 
-		border-right:  1px #fb04d1; border-left: solid 1px #fb04d1; }
+		padding: 5px 0; margin: 0 auto; border-right:  1px #fb04d1; border-left: solid 1px #fb04d1; }
 			
 			section.get h2 {font-size:30px; float:left; 
 			color:rgb(255,255,255); margin-left:60px; margin-top:30px;}
 		
-			/*section.get .button {margin-right: 60px; margin-top: 25px;}		*/
+			/*section.get .button {margin-right: 60px; margin-top: 25px;}
+		*/
 		
 		
 			
@@ -111,9 +116,7 @@ body {background:black; font-family: courier new; color:white; margin:0;}
 			{width:50px; height: 40%; float:left; text-align:center; 
 			margin: 0 auto; margin-top: 5px; margin-left: 100px; padding: 0 5px;
 			background: #292328; border-bottom: solid 1px #fb04d1;border-radius: 55px;}
-				
-			
-			section.get aside h3
+				section.get aside h3
 			{font-size:5px;  
 			color:rgb(255,255,255); margin-left:60px; margin-top:1px;}
 			
